@@ -2,6 +2,7 @@
 
 <template>
   <section class="grid grid-cols-2 gap-4">
+
     <div class="bg-white-200"></div>
     <div class="bg-white-200">
       <img
