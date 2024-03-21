@@ -4,7 +4,7 @@
 </script>
 
 <template>
-<div>Hello Sono La Navbar</div>
+<div>Hello Sono  Navbar</div>
 </template>
 
 <style scoped>
