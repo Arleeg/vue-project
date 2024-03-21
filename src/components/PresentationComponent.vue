@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class=" h-400 p-4 overflow-hidden">
-    <img class="rotate-90 h-full" src="../img/pic.png" alt="Testo alternativo dell'immagine">
+  <div class=" h-400  overflow-hidden">
+    <img class=" h-full" src="../img/sfondo.jpeg" alt="Testo alternativo dell'immagine">
   </div>
 </template>
 
