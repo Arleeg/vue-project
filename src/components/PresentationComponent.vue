@@ -1,13 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-
-    
-    <div class="bg-gray-200 p-4">
-        <img class="rotate-90" src="../img/pic.png" alt="Testo alternativo dell'immagine">
-
-    </div>
-  
+  <div class=" h-400 p-4 overflow-hidden">
+    <img class="rotate-90 h-full" src="../img/pic.png" alt="Testo alternativo dell'immagine">
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+/* Nessun bisogno di stili aggiuntivi */
+</style>
