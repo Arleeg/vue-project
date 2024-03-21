@@ -11,9 +11,9 @@
 
     <!-- Pulsanti a destra -->
     <div class="flex items-center space-x-4">
-      <button class="bg-transparent text-gray-800 px-4 py-2 rounded-md">Home</button>
-      <button class="bg-transparent text-gray-800 px-4 py-2 rounded-md">About Us</button>
-      <button class="bg-transparent text-gray-800 px-4 py-2 rounded-md">Contact Us</button>
+      <button class="bg-transparent font-bold text-gray-800 px-4 py-2 rounded-md">Home</button>
+      <button class="bg-transparent font-bold text-gray-800 px-4 py-2 rounded-md">About Us</button>
+      <button class="bg-transparent font-bold text-gray-800 px-4 py-2 rounded-md">Contact Us</button>
     </div>
   </nav>
 </template>
