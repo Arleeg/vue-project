@@ -2,3 +2,11 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+body {
+    background-color: rgb(32, 32, 34);
+    font-family: 'Nunito', sans-serif;
+}
+
+.padding-navbar {
+    padding-top: 90px;
+}

@@ -1,15 +1,10 @@
 <script setup lang="ts">
-import Navbar from './components/NavBar.vue'    
-import PresentationComponent from '../src/components/PresentationComponent.vue'
-
+import Navbar from './components/NavBar.vue'
 </script>
 
 <template>
-
-<Navbar />
-<PresentationComponent />
+  <Navbar />
+  <router-view></router-view>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
