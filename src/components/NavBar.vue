@@ -1,11 +1,10 @@
-<script>
-</script>
-
-<template >
-  <nav class="flex items-center justify-between bg-transparent fixed inset-x-0 top-0 p-4 z-10">
+<template>
+  <nav class="flex items-center justify-between navBarColor fixed w-full mx-auto px-20">
     <!-- Logo a sinistra -->
     <div class="flex items-center">
-      <img src="../img/logo.png" alt="Logo" height="20px" width="90px" class="ml-10"/>
+      <a href="/">
+        <img src="../img/Logo.png" alt="Logo" height="20px" width="90px"/>
+      </a>
     </div>
 
     <!-- Pulsanti a destra -->
@@ -14,7 +13,7 @@
         v-for="item in [{label:'Home',href:'/'}, {label:'About',href:'/about'}, {label:'Contact',href:'/contact'}]"
         :key="item.label"
         :href="item.href"
-        class="bg-transparent font-bold text-white px-4 py-2 rounded-md"
+        class=" font-bold text-white px-4 "
       >
         {{ item.label }}
       </a>
@@ -24,6 +23,7 @@
 
 <style scoped>
 /* Stili specifici per il componente Navbar */
+.navBarColor {
+  background-color: transparent;
+}
 </style>
-
- 

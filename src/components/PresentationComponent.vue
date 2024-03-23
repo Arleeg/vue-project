@@ -1,11 +1,19 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class=" h-400  overflow-hidden">
-    <img class=" h-full" src="../img/sfondo.jpeg" alt="Testo alternativo dell'immagine">
+  <div id="heroBg" class="full-height">
   </div>
 </template>
 
 <style scoped>
-/* Nessun bisogno di stili aggiuntivi */
+.full-height {
+  height: 100vh; /* Imposta l'altezza del div al 100% dell'altezza della viewport */
+}
+
+#heroBg {
+  background-image: url(/src/img/Hero.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
 </style>
