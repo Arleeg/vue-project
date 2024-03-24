@@ -29,7 +29,8 @@ video {
 }
 .youtube-overlay {
   position: absolute; /* Posiziona la scritta in modo assoluto all'interno del contenitore */
-  top: 250px; /* Posiziona la scritta in alto nel contenitore */
+
+
   left: 60px; /* Posiziona la scritta a sinistra nel contenitore */
   color: rgb(237, 237, 237); /* Imposta il colore del testo a bianco */
   font-size: 3rem; /* Imposta la dimensione del font */
