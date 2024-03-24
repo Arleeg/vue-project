@@ -1,9 +1,9 @@
 <script setup lang="ts">
-   import HeroSection from '@/components/HeroSection.vue';
-   import VideoSection from '@/components/VideoSection.vue';
+import HeroSection from '@/components/HeroSection.vue'
+import VideoSection from '@/components/VideoSection.vue'
 </script>
 
 <template>
-   <HeroSection />
-   <VideoSection />
+  <HeroSection />
+  <VideoSection />
 </template>
